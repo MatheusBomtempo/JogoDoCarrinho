@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
+ min-height: 100vh;
+ overflow-y: hidden;
+ overflow-x: hidden;
+  }
+  canvas {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    margin: auto;
+  }
+
+  h1{
+    text-align: center;
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: rgb(242, 229, 126);
+    padding: 9px;
+  }
+  
+
+   .credit{
+    font-family: 'Press Start 2P', sans-serif;
+    flex-wrap: nowrap;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    line-height: 1.4;
+    padding-top: 2rem;
+    font-size: 1rem;
+ }
+ 
+.credit span{
+    color: yellow;
+ }
+
+ h2{
+  font-family: 'Press Start 2P', sans-serif;
+  flex-wrap: nowrap;
+  position: absolute;
+  bottom: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  line-height: 1.4;
+  padding-top: 2rem;
+  font-size: 1rem;
+  color: red;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.484);
+ }
+
+ img{
+  position: absolute;
+  top: 360px;
+  left:82px;
+ }
